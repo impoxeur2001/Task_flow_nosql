@@ -15,6 +15,8 @@ Open a terminal window and navigate to the root directory of the project.
 Start the Docker container by running the following command:
 
 ## Copy
+
+```
 docker run -d --name mongo-on-docker -p 27017:27017 mongo
 ```
 
