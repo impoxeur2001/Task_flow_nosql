@@ -18,7 +18,7 @@ import java.util.Date;
 import java.util.List;
 
 @Document("Projet")
-@NoArgsConstructor @ToString
+@NoArgsConstructor @ToString    @Data @AllArgsConstructor
 public class Projet {
 
     @Transient
