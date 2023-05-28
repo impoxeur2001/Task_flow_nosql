@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-@Document("Tache") @NoArgsConstructor  @ToString
+@Document("Tache") @NoArgsConstructor  @ToString    @Data @AllArgsConstructor
 public class Tache {
 
     @Transient

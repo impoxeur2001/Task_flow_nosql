@@ -16,6 +16,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
+@Data
 public class ImageData {
 
     @Transient

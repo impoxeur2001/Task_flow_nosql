@@ -13,7 +13,7 @@ import java.util.Date;
 
 
 @Document("Commentaire")
-@NoArgsConstructor @ToString
+@NoArgsConstructor @ToString @Data @AllArgsConstructor
 public class Commentaire {
 
     @Transient

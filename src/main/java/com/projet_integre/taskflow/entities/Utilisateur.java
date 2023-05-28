@@ -18,6 +18,8 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
+@Data
+
 public class Utilisateur {
 
     @Transient
