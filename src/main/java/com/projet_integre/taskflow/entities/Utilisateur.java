@@ -56,23 +56,14 @@ public class Utilisateur {
 
     private String email;
 
-    public List<Tache> getTaches() {
-        return taches;
-    }
-
-    @DBRef
-    protected List<Tache> taches=new ArrayList<>();
 
 
 
 
 
 
-    public Utilisateur(Integer id,String nom, String email){
-        this.id=id;
-        this.nom=nom;
-        this.email=email;
-    }
+
+
 
     public void quitterProjet(Projet projet){
 

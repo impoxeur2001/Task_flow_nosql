@@ -36,9 +36,7 @@ public class Projet {
     @DBRef
     private Utilisateur chef;
 
-    public List<Utilisateur> getMembres() {
-        return membres;
-    }
+
 
     @DBRef
     protected List<Utilisateur> membres=new ArrayList<>();
@@ -46,12 +44,9 @@ public class Projet {
     @Temporal(TemporalType.DATE)
     private Date debut;
 
-    public List<Tache> getTaches() {
-        return taches;
-    }
 
-    @DBRef
-    private List<Tache> taches=new ArrayList<>();
+
+
 
 
 
